@@ -1,0 +1,29 @@
+body,html {
+        max-width: 600px;
+    margin: 0 auto;
+}
+#wrap {
+    position:relative;
+}
+#dressed {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#naked {
+    border-radius: 50%;
+    border: 4px solid #3c3c3c;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 240px;
+    height: 240px;
+}
+footer {
+    position:fixed;
+    bottom: 0;
+    right:0;
+    background:#fff;
+    font-weight: bold;
+    padding: 0 2em;
+}
